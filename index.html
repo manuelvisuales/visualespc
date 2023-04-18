@@ -1,20 +1,21 @@
 <html>
 <head>
-<title>iframe</title>
+<title>Visuales-PC</title>
 <style>
-   body{background-image: url('pictures/background.jpg');c
+   body{background-image: url('fondo.jpg');c
         background-repeat:no-repeat;
         background-size:cover;
         background-attachment:fixed; }
 
-   .menu{background: rgba(255, 255, 255, .2);
+   .menu{
          backdrop-filter: blur(2px);
-         box-shadow: 0 0 10px white;
+         box-shadow: 0 0 10px black;
          width: 180px;
          height: 400px;
          border-radius: 15px;
          margin:90px 10px;
-         position: absolute;}
+         position: absolute;
+         border:none;}
 
    ul li{list-style:none;
          padding:0;
@@ -29,14 +30,15 @@
    ul li a:hover{color:lime;
            text-shadow:0 0 3px lime, 0 0 5px lime;}
 
-   iframe{background: rgba(255, 255, 255, .3);
+   iframe{
           backdrop-filter: blur(2px);
           position: absolute;
           margin: 25px 15px 15px 280px;
           width: 65%;
           height:90%;
           border-radius: 15px;
-          box-shadow: 0 0 10px white;}
+          box-shadow: 0 0 10px black;
+          border:none;}
    
    .foto{display: inline-block;}
 
@@ -51,7 +53,7 @@
           <li><a href="concursos/concursos.html" target="body1">Concursos</a></li>
           <li><a href="#">Animados</a></li>
           <li><a href="#">Deporte</a></li>
-          <li><a href="#">Música</a></li>
+          <li><a href="musica/musica.html" target="body1">Música</a></li>
           <li><a href="#">Interesante</a></li>
           <li><a href="#">Humor</a></li>
           <li><a href="#">Extras</a></li>
