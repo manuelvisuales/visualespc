@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing Script&display=swap');
+
+*{margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Dancing Script', cursive;}
+
+.header{background-color:#338866;
+        width: 100%;
+        height: 160px;
+        position: fixed;
+        text-align: center;} 
+
+.hheader{display: inline-block;
+         color: #ffffff;
+         font-size: 90px;
+         text-shadow: 0 20px 22px black;}               
+
+.ds {      margin:0 40px 0 40px;
+           background-image: linear-gradient(
+                                             -255deg,
+                                             #231557 0%,
+                                             #44107a 29%,
+                                             #ff1361 67%,
+                                             #fff800 100%);
+           background-size:auto auto;
+           background-clip: border-box;
+           background-size: 200% auto;
+           color:#fff;
+           background-clip: text;
+           text-fill-color: transparent;
+           -webkit-background-clip: text;
+           -webkit-text-fill-color:transparent;
+           animation: textclip 2s linear infinite;
+           display:inline-block;
+           font-size: 150px;}
+           @keyframes textclip{to{background-position: 200% center;}}
+    @media(min-width:400px){.ds{font-size: 70px}}
+
+iframe {width: 100vw;
+       height: 100vh;
+       margin-top: 160px;
+       border: none;
+       background-color: white;}
+
+.footer{background-color:#338866;
+        width: 100%;
+        height: 160px;
+        text-align: center;}  
+
+.ropa {margin-left: 10px;}
+
+.conten{width: 280px;
+       height: 350px;
+       border:2px solid black;
+       display: inline-block;
+       margin: 30px 10px 10px 20px;
+       border-radius: 75px 5px 75px 5px;
+       box-shadow: 30px 30px 30px #444444;}
+
+.conten img{width: 280px;
+        height: 280px;
+        border-radius: 75px 5px 5px 5px;}       
+
+.info{width: 280px;
+        height: 70px;
+        background-color: #338866;
+        display: inline-block;
+        font-size: 50px;
+        border-radius: 5px 5px 75px 5px;
+        text-align: center;}
+
+.info a{text-decoration: none;
+   display: inline-block;
+   color:white;
+   width: 280px;
+   height:100%;
+   margin: 0;
+   padding: 0;
+   border-radius: 5px 5px 75px 5px;}
+
+.boton:hover{transform: scale(1.1);
+          transition: 0.3s;} 
+.boton{width: 100px;
+          border-radius:50%;
+           height: 100px;
+           z-index: 999;
+           width:130px;
+           height:130px;
+           position:fixed;
+           bottom: 20px;
+           right: 25px;
+           transition: ease 1s;
+           animation:efecto 1.2s infinite;}
+           @keyframes efecto{0%{(box-shadow:0 0 0 0 rgba(0,0,0,0.85);}
+                            100%{box-shadow: 0 0 0 25px rgba(0, 0, 0, 0);} }
+
+                            
+
+@media (max-width:600px){
+           iframe{background-color: black;}
+}       
