@@ -1,5 +1,5 @@
 const gpt3 = new OpenAI({
-    apiKey: 'TU_CLAVE_DE_API' // Reemplaza con tu clave de API de OpenAI
+    apiKey: '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' // Reemplaza con tu clave de API de OpenAI
   });
   
   async function realizarSuma() {
